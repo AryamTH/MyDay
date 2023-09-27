@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(245, 213, 235);
+    margin: 40px 40px 20px 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.link-homeP {
+    display: block;
+    text-align: center;
+    color: rgb(105, 0, 54);
+    margin: 0em 10em 0em 10em;
+
+    /*لحذف الخط اسفل الرابط*/
+    text-decoration: none;
+
+    /*الباكقراوند للرابط*/
+    background: rgb(215, 167, 201);
+
+    /*حدود الباكقراوند*/
+    border-top: thin solid rgb(152, 98, 136);
+    border-bottom: thin solid rgb(152, 98, 136);
+    border-radius: 5px;
+
+    /*الههوامش داخل البوردر*/
+    padding: 30px 30px;
+
+    /*الخط*/
+    font: normal normal bold 1.2em/1 papyrus;
+
+    margin-bottom: -1em;
+}
+
+a:hover {
+    background-color: #d70b8528;
+
+    /*خصائص الحدود*/
+    border-color: #46073f;
+}
+
+table,
+td,
+th {
+
+    /*خصائص الحدود*/
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: rgb(139, 2, 75);
+
+
+    /*الهوامش الداخليه*/
+    padding: 15px;
+
+
+}
+
+th:hover {
+    background-color: rgb(255, 205, 232);
+}
+
+/*input {
+    background-color: rgb(245, 213, 235);
+    border-color: rgb(245, 213, 235);
+    display: none;
+}*/
